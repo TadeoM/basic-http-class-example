@@ -1,0 +1,30 @@
+{
+    "name": "basic-http-class-example",
+    "version": "1.0.0",
+    "engines": {
+        "node": "10.16.3",
+        "npm": "6.9.0"
+    },
+    "description": "Cawlabungo Broski",
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IGM-RichMedia-at-RIT/basic-http-class-example.git"
+    },
+    "author": "Tadeo Menichelli",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/IGM-RichMedia-at-RIT/basic-http-class-example/issues"
+    },
+    "homepage": "https://github.com/IGM-RichMedia-at-RIT/basic-http-class-example#readme",
+    "devDependencies": {
+        "eslint": "^6.3.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2"
+    }
+}
